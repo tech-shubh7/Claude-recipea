@@ -1,12 +1,12 @@
 {
   "homepage": "https://tech-shubh7.github.io/Claude-recipea",
-  "name": "chef-claude",
+  "name": "Claude-recipea",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -f",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
